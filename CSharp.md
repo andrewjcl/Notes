@@ -20,12 +20,12 @@ namespace ConsoleApp1
 
 #### Console
 
-Writing
+*Writing*
 ```c#
 Console.WriteLine();
 ```
 
-Reading
+*Reading*
 ```c#
 Console.ReadLine();
 Convert.ToInt32(Console.ReadLine()); // Casting from String to Int
