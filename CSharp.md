@@ -3,7 +3,7 @@
 
 ### Basic Program Outline
 
-```
+```c#
 using System;
 
 namespace ConsoleApp1
@@ -21,9 +21,13 @@ namespace ConsoleApp1
 #### Console
 
 Writing\
-`Console.WriteLine();`
+```c#
+Console.WriteLine();
+```
 
 Reading\
-`Console.ReadLine();`\
-`Convert.ToInt32(Console.ReadLine()); // Casting from String to Int `\
-`Convert.ToDouble(Console.ReadLine()); // Casting from String to Double`\
+```c#
+Console.ReadLine();
+Convert.ToInt32(Console.ReadLine()); // Casting from String to Int
+Convert.ToDouble(Console.ReadLine()); // Casting from String to Double
+```
