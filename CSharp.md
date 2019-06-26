@@ -39,7 +39,7 @@ Convert.ToDouble(Console.ReadLine()); // Casting from String to Double
 
 #### Flow
 
-*If/Else*
+*If Else*
 ```c#
 if (x < y)
 {
