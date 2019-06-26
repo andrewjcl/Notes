@@ -35,3 +35,17 @@ Console.ReadLine();
 Convert.ToInt32(Console.ReadLine()); // Casting from String to Int
 Convert.ToDouble(Console.ReadLine()); // Casting from String to Double
 ```
+
+
+#### Flow
+
+*If/Else*
+```c#
+if (x < y)
+{
+    // Do this
+}
+else
+{
+    // Do this
+}
