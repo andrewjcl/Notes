@@ -21,6 +21,16 @@ namespace ConsoleApp1
     }
 }
 ```
+#### Data
+
+*Simple Array*
+```c#
+int[] numberArray = new int[5] {1, 2, 3, 4, 5};    // Initializing array
+Console.WriteLine(numberArray[2]);                 // Accessing array at given index
+
+
+
+
 
 #### Console
 
@@ -32,8 +42,8 @@ Console.WriteLine();
 *Reading*
 ```c#
 Console.ReadLine();
-Convert.ToInt32(Console.ReadLine()); // Casting from String to Int
-Convert.ToDouble(Console.ReadLine()); // Casting from String to Double
+Convert.ToInt32(Console.ReadLine());     // Casting from String to Int
+Convert.ToDouble(Console.ReadLine());    // Casting from String to Double
 ```
 
 
