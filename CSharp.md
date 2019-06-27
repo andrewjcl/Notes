@@ -103,3 +103,11 @@ for (int i = 0; i < 5; i++)
     // Do this
 }
 ```
+
+*While*
+```c#
+while( x == y)
+{
+    // Do this
+}
+```
