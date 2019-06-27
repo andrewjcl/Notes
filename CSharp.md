@@ -62,8 +62,11 @@ int[,] numberArray = new int[,] {{1,1}, {1,1}, {1,1}, {1,1}, {1,1}};    // Initi
 Console.WriteLine(numberArray[0,1]);                                    // Accessing array at given index
 ```
 
-
-
+*Casting*
+```c#
+Convert.ToInt32(Console.ReadLine());     // Casting from String to Int
+Convert.ToDouble(Console.ReadLine());    // Casting from String to Double
+```
 
 ## Console
 
@@ -75,8 +78,7 @@ Console.WriteLine();
 *Reading*
 ```c#
 Console.ReadLine();
-Convert.ToInt32(Console.ReadLine());     // Casting from String to Int
-Convert.ToDouble(Console.ReadLine());    // Casting from String to Double
+
 ```
 
 
