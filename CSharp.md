@@ -120,10 +120,10 @@ switch (value)
         // Execute code
         break;
     case 2:
-    // Execute code
-    break;
+        // Execute code
+        break;
     default:
-    // Execute code
-    break;
+        // Execute code
+        break;
 }
 ```
