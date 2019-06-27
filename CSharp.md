@@ -7,7 +7,6 @@
 
 ```
 https://programmingbydoing.com/
-https://www.caveofprogramming.com/c-sharp-tutorial/basic-c-programming-test-your-knowledge-2.html
 15 : The Forgetful machine
 ```
 ## Structure
