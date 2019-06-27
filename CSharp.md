@@ -111,3 +111,19 @@ while( x == y)
     // Do this
 }
 ```
+
+*Switch*
+```c#
+switch (value)
+{
+    case 1:
+        // Execute code
+        break;
+    case 2:
+    // Execute code
+    break;
+    default:
+    // Execute code
+    break;
+}
+```
