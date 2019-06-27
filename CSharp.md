@@ -32,7 +32,14 @@ namespace ConsoleApp1
 {
     class Car
     {
-        public void Start()
+        private String name;             // Private class method
+        
+        public Car(String name)          // Class Constructor with parameter
+        {         
+            this.name = name;
+        }
+    
+        public void Start()              // Class function
         {
             Console.WriteLine("Car started!");
         }
