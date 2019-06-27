@@ -1,8 +1,8 @@
 # C#
 
-[Structure](#structure)
-[Data](#data)
-[Console](#console)
+[Structure](#structure)\
+[Data](#data)\
+[Console](#console)\
 [Flow](#flow)
 
 ```
