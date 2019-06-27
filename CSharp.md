@@ -30,6 +30,12 @@ int[] numberArray = new int[5] {1, 2, 3, 4, 5};    // Initializing array
 Console.WriteLine(numberArray[2]);                 // Accessing array at given index
 ```
 
+*2d Array*
+```c#
+int[,] numberArray = new int[,] {{1,1}, {1,1}, {1,1}, {1,1}, {1,1}};    // Initializing array
+Console.WriteLine(numberArray[0,1]);                                    // Accessing array at given index
+```
+
 
 
 
