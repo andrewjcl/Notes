@@ -7,6 +7,7 @@
 
 ```
 https://programmingbydoing.com/
+http://buildingskills.itmaybeahack.com/book/oodesign-3.1/html/index.html
 15 : The Forgetful machine
 ```
 ## Structure
