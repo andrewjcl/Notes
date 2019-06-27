@@ -22,6 +22,24 @@ namespace ConsoleApp1
     }
 }
 ```
+
+*Class in other file*
+```c#
+using System;
+
+namespace ConsoleApp1
+{
+    class Car
+    {
+        public void Start()
+        {
+            Console.WriteLine("Car started!");
+        }
+    }
+}
+```
+
+
 #### Data
 
 *Simple Array*
