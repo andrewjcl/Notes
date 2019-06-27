@@ -41,7 +41,7 @@ namespace ConsoleApp1
 ```
 
 
-#### Data
+## Data
 
 *Simple Array*
 ```c#
@@ -58,7 +58,7 @@ Console.WriteLine(numberArray[0,1]);                                    // Acces
 
 
 
-#### Console
+## Console
 
 *Writing*
 ```c#
