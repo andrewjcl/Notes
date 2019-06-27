@@ -1,9 +1,9 @@
 # C#
 
-Structure
-Data
-Console
-Flow
+[Structure](#structure)
+[Data](#data)
+[Console](#console)
+[Flow](#flow)
 
 ```
 https://programmingbydoing.com/
