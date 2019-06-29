@@ -12,8 +12,9 @@ http://automatetheboringstuff.com/chapter1/
 
 *Operators*
 ```python
-2 ** 3    // exponent - 2^3 = 8
-22 // 8   // floored quotient - 22/8 = 2
+2 ** 3    // exponent - 2 ** 3 = 8
+22 // 8   // floored quotient - 22 // 8 = 2
+22 % 8    // modulus 22 % 8 = 6
 ```
 ## Data
 
