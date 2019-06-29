@@ -9,6 +9,21 @@
 http://automatetheboringstuff.com/chapter1/
 ```
 ## Structure
+*flow*
+```python
+if numberX < 5:                     # if statement
+  print('NumberX is below 5')
+# resume flow  
+ 
+  
+while numberX < 5:                  # while statement
+  print('NumberX is below 5')
+  numberX = numberX + 1
+# resume flow
+```
+
+
+
 
 *Operators*
 ```python
