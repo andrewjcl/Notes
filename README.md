@@ -1,6 +1,7 @@
 # Notes
 Programming Notes
 
+## [Python](Python.md)
 
 ## [C#](CSharp.md)
 
