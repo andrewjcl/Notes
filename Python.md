@@ -12,15 +12,25 @@ http://automatetheboringstuff.com/chapter1/
 
 *Operators*
 ```python
-2 ** 3    // exponent            2 ** 3 = 8
-22 // 8   // floored quotient   22 // 8 = 2
-22 % 8    // modulus             22 % 8 = 6
+2 ** 3    # exponent            2 ** 3 = 8
+22 // 8   # floored quotient   22 // 8 = 2
+22 % 8    # modulus             22 % 8 = 6
 ```
 ## Data
 
-
+*Casting*
+```python
+str(45)     # casting int to String 
+int(1.25)   # casting float to int
+float(10)   # casting int to float
+```
 ## Console
 
+```python
+print('Hello world!')      # Outputs given String
+
+myName = input()           # Reads next String
+```
 
 ## Flow
 
