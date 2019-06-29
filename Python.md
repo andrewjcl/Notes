@@ -9,7 +9,7 @@
 http://automatetheboringstuff.com/chapter1/
 ```
 ## Structure
-*flow*
+*Flow*
 ```python
 if numberX < 5:                     # if statement
   print('NumberX is below 5')
