@@ -39,6 +39,18 @@ print('Access granted.')
 22 // 8   # floored quotient   22 // 8 = 2
 22 % 8    # modulus             22 % 8 = 6
 ```
+*Automatic Binary*
+```python
+name = ''
+while not name:                        # String name is evaluated to be true if it is not empty
+    print('Enter your name:')
+    name = input()
+print('How many guests will you have?')
+numOfGuests = int(input())
+if numOfGuests:                       # int numOfGuests is evalutated to be true of not 0
+    print('Be sure to have enough room for all your guests.')
+print('Done')
+```
 ## Data
 
 *Casting*
