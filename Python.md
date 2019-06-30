@@ -9,6 +9,14 @@
 http://automatetheboringstuff.com/chapter1/
 ```
 ## Structure
+
+*Defining a Function*
+```python
+def hello(argumentOne, argumentTwo):
+  print(argumentOne + " " + argumentTwo)
+```
+
+
 *Flow*
 ```python
 if numberX < 5:                     # if statement
