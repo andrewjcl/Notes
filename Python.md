@@ -79,6 +79,9 @@ float(10)   # casting int to float
 print('Hello world!')      # Outputs given String
 
 myName = input()           # Reads next String
+
+print('Hello', end='')     # Disables the newline at end of print statement
+print(' World')
 ```
 
 ## Flow
