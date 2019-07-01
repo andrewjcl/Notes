@@ -82,6 +82,8 @@ myName = input()           # Reads next String
 
 print('Hello', end='')     # Disables the newline at end of print statement
 print(' World')
+
+print('cats', 'dogs', 'mice', sep=',')  # Disables automatic space between values
 ```
 
 ## Flow
