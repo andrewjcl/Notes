@@ -55,6 +55,10 @@ print('Hello world!')      # Outputs given String
 
 myName = input()           # Reads next String
 
+import random
+random_number = random.randint(1, 20)     # Generate random integer
+
+
 print('Hello', end='')     # Disables the newline at end of print statement
 print(' World')
 
@@ -63,7 +67,6 @@ print('cats', 'dogs', 'mice', sep=',')  # Disables automatic space between value
 
 ## Flow
 
-*Flow*
 ```python
 if numberX < 5:                     # if statement
   print('NumberX is below 5')
