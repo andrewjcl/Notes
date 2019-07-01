@@ -17,32 +17,7 @@ def hello(argumentOne, argumentTwo):
 ```
 
 
-*Flow*
-```python
-if numberX < 5:                     # if statement
-  print('NumberX is below 5')
- 
-while numberX < 5:                  # while statement
-  print('NumberX is below 5')
-  numberX = numberX + 1
 
-while True:                         # infinite while loop
-  print('Who are you?')
-  name = input()
-  if name != 'Joe':
-    continue                        # continue breaks loop early and returns to start of while
-  print('Hello Joe, what is the password?')
-  password = input()
-  if password == 'swordfish':
-    break                           # ends loop and continues
-print('Access granted.')
-```
-
-```python
-# In python 'for' is setup for use with iterators, but can still be used to run a set a mount
-for x in range(5):
-  print("hello, round: " + str(x) )
-```
 
 
 
@@ -88,11 +63,30 @@ print('cats', 'dogs', 'mice', sep=',')  # Disables automatic space between value
 
 ## Flow
 
+*Flow*
+```python
+if numberX < 5:                     # if statement
+  print('NumberX is below 5')
+ 
+while numberX < 5:                  # while statement
+  print('NumberX is below 5')
+  numberX = numberX + 1
 
+while True:                         # infinite while loop
+  print('Who are you?')
+  name = input()
+  if name != 'Joe':
+    continue                        # continue breaks loop early and returns to start of while
+  print('Hello Joe, what is the password?')
+  password = input()
+  if password == 'swordfish':
+    break                           # ends loop and continues
+print('Access granted.')
+```
 
-*For*
-
-*While*
-
-*Switch*
+```python
+# In python 'for' is setup for use with iterators, but can still be used to run a set a mount
+for x in range(5):
+  print("hello, round: " + str(x) )
+```
 
