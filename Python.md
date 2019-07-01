@@ -38,6 +38,12 @@ while True:                         # infinite while loop
 print('Access granted.')
 ```
 
+```python
+# In python 'for' is setup for use with iterators, but can still be used to run a set a mount
+for x in range(5):
+  print("hello, round: " + str(x) )
+```
+
 
 
 
