@@ -53,7 +53,7 @@ for x in range(5):
 22 // 8   # floored quotient   22 // 8 = 2
 22 % 8    # modulus             22 % 8 = 6
 ```
-*Automatic Binary*
+*Falsy Values*
 ```python
 name = ''
 while not name:                        # String name is evaluated to be true if it is not empty
