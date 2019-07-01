@@ -19,7 +19,10 @@ def hello(argumentOne, argumentTwo):
 
 
 
-
+*Boolean*
+```python
+while True:   # Note capitalisation
+```
 
 
 *Operators*
