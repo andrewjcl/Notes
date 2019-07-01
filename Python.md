@@ -90,3 +90,12 @@ for x in range(5):
   print("hello, round: " + str(x) )
 ```
 
+## Error Catching
+
+```python
+def spam(divideBy):
+    try:
+        return 42 / divideBy
+    except ZeroDivisionError:
+        print('Error: Invalid argument.')
+```
