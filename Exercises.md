@@ -8,8 +8,7 @@ Enter miles: ->96
 ```
 <details>
   <summary>Python</summary>
-  
-  Enter solution here
+
   ```
   python code
   ```
