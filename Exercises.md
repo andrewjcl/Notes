@@ -35,6 +35,17 @@ Enter the height in cm: -> 177
 BMI is 31.0
 ```
 
+```
+Enter a number: -> 5
+*
+* *
+* * *
+* * * *
+* * * * *
+```
+
+
+
 6.
 ```
 Enter the driving distance (km): ->900
