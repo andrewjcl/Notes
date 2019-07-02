@@ -1,7 +1,7 @@
 # Exercises
 
-## Basic Input Output
-
+### Basic Input Output
+---
 ```
 Enter miles: ->96
 96 miles is 153.6 kilometres
@@ -15,6 +15,7 @@ Enter miles: ->96
   ```
 </details>
 
+---
 ```
 Enter length of the sides and height of Equilateral triangle: ->3.5
 The area is 3.89
