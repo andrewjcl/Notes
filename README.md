@@ -7,5 +7,5 @@ Programming Notes
 
 ## [Java](Java.md)
 
-## [Programming Exercises](Exercises.md)
+## [Exercises](Exercises.md)
 
