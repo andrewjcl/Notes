@@ -6,6 +6,15 @@
 Enter miles: ->96
 96 miles is 153.6 kilometres
 ```
+<details>
+  <summary>Python</summary>
+  
+  Enter solution here
+  ```
+  python code
+  ```
+</details>
+
 ```
 Enter length of the sides and height of Equilateral triangle: ->3.5
 The area is 3.89
