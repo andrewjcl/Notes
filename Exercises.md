@@ -193,10 +193,30 @@ Enter a number: -> 125
 All prime numbers up to 125 are: 1, 3, 5, 7, ...
 ```
 <details>
-  <summary>Python</summary>
+  <summary>Python - Complete</summary>
 
   ```python
-  # answer here
+def is_prime(number):
+    is_prime = True
+    for x in range(2, int(number / 2)):
+        if number % x == 0:
+            is_prime = False
+            break
+    if is_prime:
+        return True
+    else:
+        return False
+
+
+def main():
+
+    for x in range(1000000, 1100000):
+        if is_prime(x):
+            print(f'{x} is Prime')
+
+
+if __name__ == "__main__":
+    main()
   ```
 </details>
 
