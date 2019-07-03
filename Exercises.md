@@ -113,7 +113,13 @@ Enter a number: -> 5
   <summary>Python</summary>
 
   ```python
-  # answer here
+print('Enter a number: ')
+number = int(input())
+star = '* '
+
+for x in range(number + 1):
+    print(star * x)
+    x += 1
   ```
 </details>
 
