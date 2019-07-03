@@ -62,19 +62,19 @@ Enter the number of minutes: ->1000000000
 1000000000 minutes is approximately 1902 years and 214 days
 ```
 <details>
-  <summary>Python</summary>
+  <summary><b>Python</b></summary>
 
   ```python
-  print('Enter the number of minutes: ')
-  minutes = int(input())
+print('Enter the number of minutes: ')
+minutes = int(input())
 
-  hours = minutes / 60
-  days = hours / 24
-  years = int(days / 365)
+hours = minutes / 60
+days = hours / 24
+years = int(days / 365)
 
-  days_left_over = int(days - (years * 365))
+days_left_over = int(days - (years * 365))
 
-  print(f'{minutes} minutes is approximately {years} years and {days_left_over} days')
+print(f'{minutes} minutes is approximately {years} years and {days_left_over} days')
   ```
 </details>
 
