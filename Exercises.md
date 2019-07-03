@@ -202,15 +202,54 @@ All prime numbers up to 125 are: 1, 3, 5, 7, ...
 
 ---
 ```
-Make a selection 1) deposit, 2) withdraw, 3)check balance
-multiple users?
-history?
+Create a Bank object that has methods deposit(x), withdraw(x), and print_balance()
 ```
 <details>
   <summary>Python</summary>
 
   ```python
-  # answer here
+  class Bank:
+
+    balance = 0
+
+    def __init__(self, name):
+        self.name = name
+
+    def deposit(self, amount):
+        money_list = amount.split('.')
+        dollars = int(money_list[0])
+        cents = int(money_list[1])
+        self.balance += ((dollars * 100) + cents)
+
+    def withdraw(self, amount):
+        money_list = amount.split('.')
+        dollars = int(money_list[0])
+        cents = int(money_list[1])
+        self.balance -= ((dollars * 100) + cents)
+
+    def print_balance(self):
+        dollars = int(self.balance / 100)
+        cents = (self.balance - (dollars * 100))
+
+        if cents < 10:
+            print(f'Current Balance: ${dollars}.0{cents}')
+        else:
+            print(f'Current Balance: ${dollars}.{cents}')
+
+
+def main():
+    bank01 = Bank("Andrew Lim")
+
+    bank01.deposit("34.08")
+    bank01.print_balance()
+    bank01.deposit("0.80")
+    bank01.print_balance()
+    bank01.withdraw("5.20")
+    bank01.print_balance()
+
+
+if __name__ == "__main__":
+    main()
   ```
 </details>
 
