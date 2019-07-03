@@ -200,12 +200,8 @@ def is_prime(number):
     is_prime = True
     for x in range(2, int(number / 2)):
         if number % x == 0:
-            is_prime = False
-            break
-    if is_prime:
-        return True
-    else:
-        return False
+            return False
+    return True
 
 
 def main():
