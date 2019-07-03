@@ -7,7 +7,7 @@ Enter miles: ->96
 96 miles is 153.6 kilometres
 ```
 <details>
-  <summary><b>Python</b></summary>
+  <summary>Python - Complete</summary>
 
   ```python
   print('Enter miles: ')
@@ -23,7 +23,7 @@ Enter length of the sides for equilateral triangle: ->3.5
 The area is 3.89
 ```
 <details>
-  <summary><b>Python</b></summary>
+  <summary>Python - Complete</summary>
 
   ```python
   import math
@@ -41,7 +41,7 @@ Enter a number between 0  and 1000: ->999
 The multiplication of all digits in 999 is 729
 ```
 <details>
-  <summary><b>Python</b></summary>
+  <summary>Python - Complete</summary>
 
   ```python
   print('Enter a number between 0 and 1000: ')
@@ -62,7 +62,7 @@ Enter the number of minutes: ->1000000000
 1000000000 minutes is approximately 1902 years and 214 days
 ```
 <details>
-  <summary><b>Python</b></summary>
+  <summary>Python - Complete</summary>
 
   ```python
 print('Enter the number of minutes: ')
@@ -85,7 +85,7 @@ Enter the height in cm: -> 177
 BMI is 31.0
 ```
 <details>
-  <summary><b>Python</b></summary>
+  <summary>Python - Complete</summary>
 
   ```python
   print('Enter your weight in kg: ')
