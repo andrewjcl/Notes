@@ -7,7 +7,7 @@ Enter miles: ->96
 96 miles is 153.6 kilometres
 ```
 <details>
-  <summary><b>Python</b></summary>
+  <summary>`Python`</summary>
 
   ```python
   print('Enter miles: ')
