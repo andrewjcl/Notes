@@ -9,8 +9,11 @@ Enter miles: ->96
 <details>
   <summary>Python</summary>
 
-  ```
-  python code
+  ```python
+  print('Enter miles: ')
+  miles = float(input())
+  kilometres = miles * 1.609
+  print(f'{miles} miles is {round(kilometres, 1)} kilometres')
   ```
 </details>
 
