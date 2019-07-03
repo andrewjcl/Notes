@@ -40,11 +40,27 @@ The area is 3.89
 Enter a number between 0  and 1000: ->999
 The multiplication of all digits in 999 is 729
 ```
+<details>
+  <summary>Python</summary>
+
+  ```python
+  # answer here
+  ```
+</details>
+
 ---
 ```
 Enter the number of minutes: ->1000000000
 1000000000 minutes is approximately 1902 years and 214 days
 ```
+<details>
+  <summary>Python</summary>
+
+  ```python
+  # answer here
+  ```
+</details>
+
 ---
 ```
 Enter the weight in kilograms: ->90
