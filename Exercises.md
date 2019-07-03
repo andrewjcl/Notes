@@ -65,7 +65,16 @@ Enter the number of minutes: ->1000000000
   <summary>Python</summary>
 
   ```python
-  # answer here
+  print('Enter the number of minutes: ')
+  minutes = int(input())
+
+  hours = minutes / 60
+  days = hours / 24
+  years = int(days / 365)
+
+  days_left_over = int(days - (years * 365))
+
+  print(f'{minutes} minutes is approximately {years} years and {days_left_over} days')
   ```
 </details>
 
