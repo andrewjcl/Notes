@@ -76,10 +76,18 @@ Enter the height in cm: -> 177
 BMI is 31.0
 ```
 <details>
-  <summary>Python</summary>
+  <summary><b>Python</b></summary>
 
   ```python
-  # answer here
+  print('Enter your weight in kg: ')
+weight = float(input())
+
+print('Enter your height in cm: ')
+height = float(input()) / 100
+
+bmi = weight / (height * height)
+
+print(f'BMI is {round(bmi, 1)}')
   ```
 </details>
 
