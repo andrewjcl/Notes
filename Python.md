@@ -54,18 +54,22 @@ float(10)   # casting int to float
 ## Console
 
 ```python
-print('Hello world!')      # Outputs given String
+print('Hello world!')                      # Outputs given String
 
-myName = input()           # Reads next String
+myName = input()                           # Reads next String
 
 import random
-random_number = random.randint(1, 20)     # Generate random integer
+random_number = random.randint(1, 20)      # Generate random integer
 
-
-print('Hello', end='')     # Disables the newline at end of print statement
+print('Hello', end='')                     # Disables the newline at end of print statement
 print(' World')
 
-print('cats', 'dogs', 'mice', sep=',')  # Disables automatic space between values
+print('cats', 'dogs', 'mice', sep=',')     # Disables automatic space between values
+
+print(round(2.665, 2))                     # Rounding a float with round()
+
+truncate(1324343032.324325235, 3)          # Truncate a float with truncate()
+
 ```
 
 ## Flow
