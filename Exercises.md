@@ -205,7 +205,7 @@ All prime numbers up to 125 are: 1, 3, 5, 7, ...
 Create a Bank object that has methods deposit(x), withdraw(x), and print_balance()
 ```
 <details>
-  <summary>Python</summary>
+  <summary>Python - Complete</summary>
 
   ```python
   class Bank:
