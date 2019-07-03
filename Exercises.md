@@ -163,7 +163,7 @@ Cost of full tank:
 Cost and refills to drive Sydney to Perth:
 ```
 <details>
-  <summary>Python</summary>
+  <summary>Python - Complete</summary>
 
   ```python
 print('Enter the driving distance (km): ')
