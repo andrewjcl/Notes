@@ -119,7 +119,6 @@ star = '* '
 
 for x in range(number + 1):
     print(star * x)
-    x += 1
   ```
 </details>
 
