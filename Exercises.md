@@ -110,7 +110,7 @@ Enter a number: -> 5
 * * * * *
 ```
 <details>
-  <summary>Python</summary>
+  <summary>Python - Complete</summary>
 
   ```python
 print('Enter a number: ')
