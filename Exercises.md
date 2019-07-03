@@ -166,7 +166,24 @@ Cost and refills to drive Sydney to Perth:
   <summary>Python</summary>
 
   ```python
-  # answer here
+print('Enter the driving distance (km): ')
+distance = int(input())
+
+print('Enter the your mileage (L/100km): ')
+mileage = 100 * 1 / float(input())  # Stored as km per Litre
+
+print('Enter the price of fuel ($/Litre): ')
+price = float(input())
+
+print('Enter your fuel tank capacity (Litres): ')
+capacity = int(input())
+
+print('----------------------------------------')
+print(f'\tYour range on full tank is {round(capacity * mileage)} km')
+print(f'\tCost of a full tank is ${round(capacity * price, 2)}')
+refills = int(3933.17 / (capacity * mileage)) + 1
+fill_cost = price * capacity
+print(f'\tCost and refills to drive Sydney to Perth is {refills} refills, total cost ${round(fill_cost * refills, 2)}')
   ```
 </details>
 
