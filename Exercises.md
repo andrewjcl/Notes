@@ -132,10 +132,23 @@ Enter a number: -> 5
 5 : ODD
 ```
 <details>
-  <summary>Python</summary>
+  <summary>Python - Complete</summary>
 
   ```python
-  # answer here
+def is_even(x):
+    if x % 2 == 1:
+        return False
+    return True
+
+
+print('Enter a number: ')
+number = int(input())
+
+for x in range(1, number + 1, 23):
+    if is_even(x):
+        print(f'{x} : EVEN')
+    else:
+        print(f'{x} : ODD')
   ```
 </details>
 
