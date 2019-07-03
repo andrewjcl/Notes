@@ -21,7 +21,6 @@ Enter miles: ->96
 ```
 Enter length of the sides for equilateral triangle: ->3.5
 The area is 3.89
-The volume of the Triangular prism is 19.48
 ```
 <details>
   <summary>Python</summary>
@@ -29,7 +28,7 @@ The volume of the Triangular prism is 19.48
   ```python
   import math
 
-  print('Enter the length of the sides for the equilateral triangle: ')
+  print('Enter the length of the sides for equilateral triangle: ')
   side = float(input())
   area = math.sqrt(3) / 4.0 * side * side
   print(f'The area is {round(area, 2)}')
