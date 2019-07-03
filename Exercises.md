@@ -23,19 +23,36 @@ Enter length of the sides and height of Equilateral triangle: ->3.5
 The area is 3.89
 The volume of the Triangular prism is 19.48
 ```
+<details>
+  <summary>Python</summary>
+
+  ```python
+  import math
+
+   print('Enter the length of the sides for the equilateral triangle: ')
+   side = float(input())
+   area = math.sqrt(3) / 4.0 * side * side
+   print(f'The area is {round(area, 2)}')
+  ```
+</details>
+
+---
 ```
 Enter a number between 0  and 1000: ->999
 The multiplication of all digits in 999 is 729
 ```
+---
 ```
 Enter the number of minutes: ->1000000000
 1000000000 minutes is approximately 1902 years and 214 days
 ```
+---
 ```
 Enter the weight in kilograms: ->90
 Enter the height in cm: -> 177
 BMI is 31.0
 ```
+---
 ```
 Enter a number: -> 5
 *
