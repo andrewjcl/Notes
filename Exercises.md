@@ -217,6 +217,9 @@ if __name__ == "__main__":
 </details>
 
 ---
+
+### Object Oriented Programming
+---
 ```
 Create a Bank object that has methods deposit(x), withdraw(x), and print_balance()
 ```
@@ -266,6 +269,30 @@ def main():
 
 if __name__ == "__main__":
     main()
+  ```
+</details>
+
+---
+```
+Description
+```
+<details>
+  <summary>Python</summary>
+
+  ```python
+  # Solution
+  ```
+</details>
+
+---
+```
+Description
+```
+<details>
+  <summary>Python</summary>
+
+  ```python
+  # Solution
   ```
 </details>
 
