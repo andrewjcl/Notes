@@ -274,7 +274,7 @@ if __name__ == "__main__":
 
 ---
 ```
-Description
+Create a shape class, a rectangle/square/circle/triangle subclasses, and a square subclass, that have methods get_perimeter(), get_area()
 ```
 <details>
   <summary>Python</summary>
@@ -286,7 +286,19 @@ Description
 
 ---
 ```
-Description
+Create a ATM machine object that holds many accounts. Users can log into and out of each account and can see balance, with draw and deposit. Create an admin account to log into that has the ability to create and remove accounts.
+```
+<details>
+  <summary>Python</summary>
+
+  ```python
+  # Solution
+  ```
+</details>
+
+---
+```
+Create a person class, with subclasses student and employee. Create classes faculty and staff as subclasses of employee. A person has a name, address, phone number and email. A student has a class status (freshman, sophmore, junior, senior). Define the status as a constant. An employee has an office, salary and date hired. A faculty member has office hours and a rank. A staff member has a title. Create toString methods in each class.
 ```
 <details>
   <summary>Python</summary>
