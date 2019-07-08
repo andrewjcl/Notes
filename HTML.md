@@ -19,6 +19,6 @@ https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-he
 
 <main>
 <p>This is a paragraph</p>
-<img src"http://www.images.com/image.jpg" alt="Alt text goes here">
+<img src="http://www.images.com/image.jpg" alt="Alt text goes here">
 </main>
 ```
