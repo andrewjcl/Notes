@@ -13,5 +13,10 @@ https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-he
 *Defining a Function*
 
 ```html
+<!-- This is a comment -->
+
 <h1>This is a heading</h1>
+
+
+<p>This is a paragraph</p>
 ```
