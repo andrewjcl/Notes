@@ -17,5 +17,10 @@ if (confirm("This is a question")) {
 
 Ternary operator
 ```javascript
-console.log(a + b == 10 ? "equal 10" : "don't equal 10")
+let result = (a + b == 10 ? "equal 10" : "don't equal 10")
+```
+
+Arrow function
+```javascript
+let sum = (a, b) => a + b;
 ```
