@@ -6,7 +6,7 @@
 [Flow](#flow)
 
 
-
+Confirmation box with OK / Cancel buttons
 ```javascript
 if (confirm("This is a question")) {
     console.log("Alrighty then we're in business.")
