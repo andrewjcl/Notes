@@ -6,7 +6,9 @@
 [Flow](#flow)
 
 
+
 Confirmation box with OK / Cancel buttons
+
 ```javascript
 if (confirm("This is a question")) {
     console.log("Alrighty then we're in business.")
@@ -28,4 +30,8 @@ let sum = (a, b) => a + b;
 Alert
 ```javascript
 alert("This is an IMPORTANT message")
+```
+Prompt box with imput
+```javascript
+prompt("Please enter your name", "example name")
 ```
