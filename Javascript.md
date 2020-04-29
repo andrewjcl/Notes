@@ -17,7 +17,7 @@ if (confirm("This is a question")) {
 
 Ternary operator
 ```javascript
-let result = (a + b == 10 ? "equal 10" : "don't equal 10")
+let result = (a + b == 10 ? "equal 10" : "doesn't equal 10")
 ```
 
 Arrow function
