@@ -24,3 +24,8 @@ Arrow function
 ```javascript
 let sum = (a, b) => a + b;
 ```
+
+Alert
+```javascript
+alert("This is an IMPORTANT message")
+```
