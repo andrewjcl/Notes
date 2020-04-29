@@ -4,6 +4,8 @@
 
 ## [Java](Java.md)
 
+## [Javascript](Javascript.md)
+
 ## [HTML](HTML.md)
 
 ## [Python](Python.md)
