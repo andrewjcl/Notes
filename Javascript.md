@@ -14,3 +14,8 @@ if (confirm("This is a question")) {
     console.log("Fine then, we won't do the thing.")
 }
 ```
+
+Ternary operator
+```javascript
+console.log(a + b == 10 ? "equal 10" : "don't equal 10")
+```
