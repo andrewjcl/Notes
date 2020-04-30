@@ -35,3 +35,15 @@ Prompt box with imput
 ```javascript
 prompt("Please enter your name", "example name")
 ```
+
+Removes element(s) from array
+```javascript
+function removeFromArray(array, ...theArgs) {
+    for (var i = 0; i < theArgs.length; i++) {
+        if (array.includes(theArgs[i])) {
+        array.splice(array.indexOf(theArgs[i]), 1)
+        }   
+    }
+    return array 
+}     
+```
