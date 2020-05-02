@@ -78,6 +78,16 @@ let getSummary = function (book) {
 }
 console.log(getSummary(myBook).pageCountSummary)
 ```
+Array Methods
+```javascript
+console.log(notes.pop())
+notes.push('My new note')
+
+console.log(notes.shift())
+notes.unshift('My new first note')
+
+notes.splice(1, 2, 'This is the new second item', 'New Third Item')
+```
 
 
 
