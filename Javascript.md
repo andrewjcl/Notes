@@ -88,12 +88,17 @@ notes.unshift('My new first note')
 
 notes.splice(1, 2, 'This is the new second item', 'New Third Item')
 ```
-forEach with callback function
+forEach with callback function - Iterates through array
 ```javascript
 notes.forEach(function (item, index) {
     console.log(index)
     console.log(item)
 })
 ```
-
+findIndex - returns index of item that return (true)
+```javascript
+const index = notes.findIndex(function(each) {
+    return each.title === 'Habits to work on'
+})
+```
 
