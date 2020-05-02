@@ -60,3 +60,11 @@ let name = 'Jen'
 
 console.log(`Hey my name is ${name}!`)
 ```
+Create an object
+```javascript
+let myBook = {
+    title: '1984',
+    author: 'George Orwell',
+    pageCount: 326
+}
+```
