@@ -47,3 +47,10 @@ function removeFromArray(array, ...theArgs) {
     return array 
 }     
 ```
+Function with default value
+```javascript
+let getScoreText = function(name, score = 0) {
+    console.log(name)
+    console.log(score)
+}
+```
