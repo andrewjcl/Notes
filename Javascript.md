@@ -13,7 +13,11 @@ Confirmation box with OK / Cancel buttons
 if (confirm("This is a question")) {
     console.log("Alrighty then we're in business.")
 } else {
-    console.log("Fine then, we won't do the thing.")
+const getThingsDone = function(array) {
+    return array.filter(function(each) {
+        return each.completed
+    })
+}    console.log("Fine then, we won't do the thing.")
 }
 ```
 
@@ -102,5 +106,13 @@ findIndex - returns index of item that return (true)
 const index = notes.findIndex(function(each) {
     return each.title === 'Habits to work on'
 })
+```
+array.filter - Returns array of items that match
+```javascript
+const getThingsDone = function(array) {
+    return array.filter(function(each) {
+        return each.completed
+    })
+}
 ```
 
