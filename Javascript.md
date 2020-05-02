@@ -54,3 +54,9 @@ let getScoreText = function(name, score = 0) {
     console.log(score)
 }
 ```
+String template
+```javascript
+let name = 'Jen'
+
+console.log(`Hey my name is ${name}!`)
+```
