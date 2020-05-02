@@ -95,6 +95,8 @@ notes.forEach(function (item, index) {
     console.log(item)
 })
 ```
+indexOf - always use ===, not suitable for array of objects
+
 findIndex - returns index of item that return (true)
 ```javascript
 const index = notes.findIndex(function(each) {
