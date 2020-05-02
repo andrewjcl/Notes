@@ -54,7 +54,7 @@ let getScoreText = function(name, score = 0) {
     console.log(score)
 }
 ```
-String template
+Template Strings
 ```javascript
 let name = 'Jen'
 
