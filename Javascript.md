@@ -88,6 +88,12 @@ notes.unshift('My new first note')
 
 notes.splice(1, 2, 'This is the new second item', 'New Third Item')
 ```
-
+forEach with callback function
+```javascript
+notes.forEach(function (item, index) {
+    console.log(index)
+    console.log(item)
+})
+```
 
 
