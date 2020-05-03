@@ -142,3 +142,23 @@ const sortNotes = function(notes) {
 }
 ```
 
+## HTML DOM
+select a paragraph
+```javascript
+const parapgrah = document.querySelector('p')
+```
+select all paragraphs, save as list
+```javascript
+const paragraphs = document.querySelectorAll('p')
+```
+iterate through list of paragraphs, remove one that matches
+```javascript
+paragraphs.forEach(function (p) {
+    if (p.textContent.toLowerCase().includes('cat')) {
+        p.remove()
+    }
+})
+```
+
+
+
