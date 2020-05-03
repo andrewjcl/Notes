@@ -115,4 +115,18 @@ const getThingsDone = function(array) {
     })
 }
 ```
+Sort array of objects according to property
+```javascript
+const sortNotes = function(notes) {
+    notes.sort(function(a, b) {
+        if (a.title.toLowerCase() < b.title.toLowerCase()) {
+            return -1
+        } else if (b.title.toLowerCase() < a.title.toLowerCase()) {
+            return 1
+        } else {
+            return 0
+        }
+    })
+}
+```
 
