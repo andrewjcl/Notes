@@ -159,6 +159,12 @@ paragraphs.forEach(function (p) {
     }
 })
 ```
+append new elemend
+```javascript
+const newParagraph = document.createElement('p')
+newParagraph.textContent = 'This is a new element from Javascript'
+document.querySelector('body').appendChild(newParagraph)
+```
 
 
 
