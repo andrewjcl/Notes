@@ -165,6 +165,13 @@ const newParagraph = document.createElement('p')
 newParagraph.textContent = 'This is a new element from Javascript'
 document.querySelector('body').appendChild(newParagraph)
 ```
+add eventlistener to button
+```javascript
+document.querySelector('button').addEventListener('click', function(e) {
+    console.log('Did this work?')
+    console.log(e)
+})
+```
 
 
 
