@@ -221,4 +221,16 @@ document.querySelector('#filter-by').addEventListener('change', function(e) {
     console.log(e.target.value)
 })
 ```
+CRUD local storage
+```javascript
+// (C) reate
+localStorage.setItem('location', 'Newcastle NSW')
+// (R) ead
+console.log(localStorage.getItem('location'))
+// (U) pdate
+localStorage.setItem('location', 'Newcastle NSW')
+// (D) elete
+localStorage.removeItem('location')
+localStorage.clear()  // Removes all
+```
 
