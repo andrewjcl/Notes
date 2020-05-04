@@ -185,10 +185,10 @@ document.querySelector('#notes').innerHTML = ''
 
 Form
 ```html
-form id="name-form">
-            <input type="text" placeholder="First name" name="firstName">
-            <button>Submit</button>
-        </form>
+<form id="name-form">
+    <input type="text" placeholder="First name" name="firstName">
+    <button>Submit</button>
+</form>
 ```
 ```javascript
 document.querySelector('#name-form').addEventListener('submit', function(e) {
