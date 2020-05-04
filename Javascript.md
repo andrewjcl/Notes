@@ -183,6 +183,22 @@ clear div of html content
 document.querySelector('#notes').innerHTML = ''
 ```
 
+HTML Form
+```html
+form id="name-form">
+            <input type="text" placeholder="First name" name="firstName">
+            <button>Submit</button>
+        </form>
+```
+
+Form listener
+```javascript
+document.querySelector('#name-form').addEventListener('submit', function(e) {
+    e.preventDefault()
+    console.log(e.target.elements.firstName.value)
+    e.target.elements.firstName.value = ''
+})
+```
 
 
 
