@@ -183,15 +183,13 @@ clear div of html content
 document.querySelector('#notes').innerHTML = ''
 ```
 
-HTML Form
+Form
 ```html
 form id="name-form">
             <input type="text" placeholder="First name" name="firstName">
             <button>Submit</button>
         </form>
 ```
-
-Form listener
 ```javascript
 document.querySelector('#name-form').addEventListener('submit', function(e) {
     e.preventDefault()
@@ -199,6 +197,15 @@ document.querySelector('#name-form').addEventListener('submit', function(e) {
     e.target.elements.firstName.value = ''
 })
 ```
-
-
+Checkedbox
+```html
+<label>
+    <input id="for-fun" type="checkbox"> Check me for fun
+</label>
+```
+```javascript
+document.querySelector('#for-fun').addEventListener('change', function(e) {
+    console.log(e.target.checked)
+})
+```
 
