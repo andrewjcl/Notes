@@ -197,7 +197,7 @@ document.querySelector('#name-form').addEventListener('submit', function(e) {
     e.target.elements.firstName.value = ''
 })
 ```
-Checkedbox
+Checkbox
 ```html
 <label>
     <input id="for-fun" type="checkbox"> Check me for fun
