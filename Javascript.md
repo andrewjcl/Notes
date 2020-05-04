@@ -233,7 +233,7 @@ localStorage.setItem('location', 'Newcastle NSW')
 localStorage.removeItem('location')
 localStorage.clear()  // Removes all
 ```
-JSON - create javascript object, convert to JSON string and sent to storage, than retrieve it and change it back
+JSON - create javascript object, convert to JSON string and send to local storage, then retrieve it and change it back
 ```javascript
 const userJSON = JSON.stringify(user)
 localStorage.setItem('user', userJSON)
