@@ -208,4 +208,17 @@ document.querySelector('#for-fun').addEventListener('change', function(e) {
     console.log(e.target.checked)
 })
 ```
+Dropdown
+```html
+<select id="filter-by">
+    <option>Sort by last edited</option>
+    <option>Sort by recently created</option>
+    <option>Sort alphabetically</option>
+</select>
+```
+```javascript
+document.querySelector('#filter-by').addEventListener('change', function(e) {
+    console.log(e.target.value)
+})
+```
 
