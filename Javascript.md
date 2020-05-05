@@ -245,4 +245,10 @@ localStorage.setItem('user', userJSON)
 const newUserJSON = localStorage.getItem('user')
 const newUser = JSON.parse(userJSON)
 console.log(`${newUser.name} is ${newUser.age} years old.`)
+
+// Check for existing saved data
+const notesJSON = localStorage.getItem('notes')
+if (notesJSON != null) {
+    notes = JSON.parse(notesJSON)
+}
 ```
