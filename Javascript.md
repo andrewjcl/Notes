@@ -103,6 +103,10 @@ console.log(notes.shift())
 notes.unshift('My new first note')
 
 notes.splice(1, 2, 'This is the new second item', 'New Third Item')
+
+myName = 'Andrew'
+nameArray = myName.split('')  // Returns ['A', 'n', 'd', ...]
+nameArray.join('')  // Returns 'Andrew'
 ```
 forEach with callback function - Iterates through array
 ```javascript
