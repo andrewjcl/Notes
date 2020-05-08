@@ -252,3 +252,10 @@ if (notesJSON != null) {
     notes = JSON.parse(notesJSON)
 }
 ```
+Create unique ID using uuID  https://github.com/uuidjs/uuid
+```html
+<script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>
+<script>
+  alert(uuidv4());
+</script>
+```
