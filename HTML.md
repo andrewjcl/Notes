@@ -16,7 +16,7 @@ https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-he
 <!-- This is a comment -->
 
 <h1>This is a heading</h1>                                           <!-- Can use numbers 1 through to 6  each
-                                                                         progressively smaller -->
+                                                                          in progressively smaller fonts-->
 
 <main>                                                               <!-- the main tags helps search engines find 
                                                                           the main content of your page -->
