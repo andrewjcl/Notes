@@ -17,7 +17,7 @@ https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-he
 
 <h1>This is a heading</h1>                                          <!-- Can use numbers 1 through to 6 -->
 
-<main>
+<main>    <!-- the main tags helps search engines find the main content of your page -->
 <p>This is a paragraph</p>
 <img src="http://www.images.com/image.jpg" alt="Alt text goes here"> <!-- Inserting an image -->
 <a href="www.google.com">This is the link to google</a>              <!-- Anchor -->
