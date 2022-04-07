@@ -15,7 +15,7 @@ https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-he
 ```html
 <!-- This is a comment -->
 
-<h1>This is a heading</h1>                                          <!-- Can use numbers 1 through to 7, each a smaller font -->
+<h1>This is a heading</h1>                                          <!-- Can use numbers 1 through to 7 -->
 
 <main>
 <p>This is a paragraph</p>
