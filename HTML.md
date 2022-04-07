@@ -23,7 +23,8 @@ https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-he
 <p>This is a paragraph</p>
 <img src="http://www.images.com/image.jpg" alt="Alt text goes here"> <!-- Inserting an image -->
 <a href="www.google.com">This is the link to google</a>              <!-- Anchor -->
-                                                                     <!-- target="_blank" attribute causes open in new tab
+                                                                     <!-- target="_blank" attribute causes link 
+                                                                          to open in new tab -->
 </main>
 <footer id="footer">This is my footer</footer>
 <a href="#footer">Jump</a>                                           <!-- Anchor with ref to jump to id tag -->
