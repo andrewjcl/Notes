@@ -65,6 +65,10 @@ print(names[1])                               # accessing an element
 names.append('garry')                         # adding an element
 names.insert(2, 'margaret')                   # inserting an element
 del names[0]                                  # removing an element with del statement and index
+removed_person = names.pop()                  # pop() method references element and then removes
+removed_person = names.pop(2)                 # can be used on index
+names.remove('lisa')                          # remove() removes (first) matching element
+
 
 ```
 
