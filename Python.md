@@ -58,6 +58,16 @@ name.strip()  # remove leading and ending whitespace
               # also has left/right lstrip() rstrip() versions
 ```
 
+*Lists*
+```python
+names = ['andrew', 'lisa', 'julie-ann']       # initialise a list
+print(names[1])                               # accessing an element
+names.append('garry')                         # adding an element
+names.insert(2, 'margaret')                   # inserting an element
+del names[0]                                  # removing an element with del statement and index
+
+```
+
 *Casting*
 ```python
 str(45)     # casting int to String 
@@ -67,21 +77,21 @@ float(10)   # casting int to float
 ## Console
 
 ```python
-print('Hello world!')                      # Outputs given String
+print('Hello world!')                      # outputs given String
 
-myName = input()                           # Reads next String
+myName = input()                           # reads next String
 
 import random
-random_number = random.randint(1, 20)      # Generate random integer
+random_number = random.randint(1, 20)      # generate random integer
 
-print('Hello', end='')                     # Disables the newline at end of print statement
+print('Hello', end='')                     # disables the newline at end of print statement
 print(' World')
 
-print('cats', 'dogs', 'mice', sep=',')     # Disables automatic space between values
+print('cats', 'dogs', 'mice', sep=',')     # disables automatic space between values
 
-print(round(2.665, 2))                     # Rounding a float with round()
+print(round(2.665, 2))                     # rounding a float with round()
 
-truncate(1324343032.324325235, 3)          # Truncate a float with truncate()
+truncate(1324343032.324325235, 3)          # truncate a float with truncate()
 
 ```
 
