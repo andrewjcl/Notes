@@ -53,6 +53,9 @@ print(name.upper())
 print(name.lower())
 greetingMsg = f"Hello, {name}! Thanks for joining"  # Using String format
 print("Languages:\n\tPython\n\tC++\n\tJavascript")  # Newline and tab
+name = "  andrew "
+name.strip()  # remove leading and ending whitespace
+              # also has left/right lstrip() rstrip() versions
 ```
 
 *Casting*
