@@ -45,6 +45,12 @@ print('Done')
 ```
 ## Data
 
+*Strings*
+```python
+name = "ada lovelace"
+print(name.title())  # Outputs Ada Lovelace
+```
+
 *Casting*
 ```python
 str(45)     # casting int to String 
