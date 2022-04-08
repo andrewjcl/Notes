@@ -122,12 +122,12 @@ while True:                         # infinite while loop
   if password == 'swordfish':
     break                           # ends loop and continues
 print('Access granted.')
-```
 
-```python
-# In python 'for' is setup for use with iterators, but can still be used to run a set amount
 for x in range(5):
   print("hello, round: " + str(x) )
+  
+for person in persons:                              # Using for to loop through a list
+  print(f"Hello {person}, nice to meet you.")
 ```
 
 ```python
