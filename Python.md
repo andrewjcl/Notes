@@ -68,6 +68,9 @@ del names[0]                                  # removing an element with del sta
 removed_person = names.pop()                  # pop() method references element and then removes
 removed_person = names.pop(2)                 # can be used on index
 names.remove('lisa')                          # remove() removes (first) matching element
+names.sort()                                  # sort by alphabet - can take parameter reverse=True
+sorted(names)                                 # function that makes a new copy of list that is sorted
+len(names)                                    # function that displays amount of elements in list (length)
 
 
 ```
