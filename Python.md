@@ -48,7 +48,11 @@ print('Done')
 *Strings*
 ```python
 name = "ada lovelace"
-print(name.title())  # Outputs Ada Lovelace
+print(name.title())  # Altering Case examples
+print(name.upper())
+print(name.lower())
+greetingMsg = f"Hello, {name}! Thanks for joining"  # Using String format
+print("Languages:\n\tPython\n\tC++\n\tJavascript")  # Newline and tab
 ```
 
 *Casting*
