@@ -72,7 +72,7 @@ names.remove('lisa')                          # remove() removes (first) matchin
 names.sort()                                  # sort by alphabet - can take parameter reverse=True
 sorted(names)                                 # function that makes a new copy of list that is sorted
 len(names)                                    # function that displays amount of elements in list (length)
-numbers[3:6]                                  # returns a new list 'slice', starting (inclusive) and ending (exclusive) index
+numbers[3:6]                                  # returns a new list 'slice', starting (inclusive) and ending (exclusive)
 numbers[:3]                                   # returns first 3 elements
 numbers[-3:]                                  # returns last 3 elements
 
