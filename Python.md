@@ -79,6 +79,7 @@ numbers_copy = numbers[:]                     # using slice to create a new list
 min(numbers)                                  # returns smallest number
 max(numbers)                                  # returns largest number
 sum(numbers)                                  # returns total of all numbers in the list
+numbers = list(range1, 6)                     # using list() function to convert a range data type straight to a list
 
 
 ```
