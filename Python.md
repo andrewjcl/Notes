@@ -61,6 +61,7 @@ name.strip()  # remove leading and ending whitespace
 *Lists*
 ```python
 names = ['andrew', 'lisa', 'julie-ann']       # initialise a list
+squares = [value**2 for value in range(6)]    # list generate from a sequence in 1 line, called list comprehension
 print(names[1])                               # accessing an element
 names.append('garry')                         # adding an element
 names.insert(2, 'margaret')                   # inserting an element
