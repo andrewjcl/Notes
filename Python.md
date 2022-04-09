@@ -80,13 +80,11 @@ min(numbers)                                  # returns smallest number
 max(numbers)                                  # returns largest number
 sum(numbers)                                  # returns total of all numbers in the list
 numbers = list(range1, 6)                     # using list() function to convert a range data type straight to a list
+```
 
 *Tuples*
 ```python
 foods = ('meat', 'potato', 'eggs')            # a tuple is an immutable list, created using round brackets instead of square
-
-```
-
 
 ```
 
