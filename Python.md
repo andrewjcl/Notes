@@ -75,6 +75,9 @@ len(names)                                    # function that displays amount of
 numbers[3:6]                                  # returns a new list 'slice', starting (inclusive) and ending (exclusive)
 numbers[:3]                                   # returns first 3 elements
 numbers[-3:]                                  # returns last 3 elements
+min(numbers)                                  # returns smallest number
+max(numbers)                                  # returns largest number
+sum(numbers)                                  # returns total of all numbers in the list
 
 
 ```
