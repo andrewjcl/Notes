@@ -84,8 +84,7 @@ numbers = list(range1, 6)                     # using list() function to convert
 
 *Tuples*
 ```python
-foods = ('meat', 'potato', 'eggs')            # a tuple is an immutable list, created using round brackets instead of square
-
+foods = ('meat', 'potato', 'eggs')            # a tuple is an immutable list, created using round brackets 
 ```
 
 *Casting*
