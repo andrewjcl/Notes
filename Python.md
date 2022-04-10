@@ -51,6 +51,7 @@ print(f"The capital city of Australia is {capital_cities['australia']}")   # acc
 capital_cities['australia'] = 'sydney'               # modifying a value
 capital_cities['united states'] = 'washington d.c'   # adding a new value
 del capital_cities['australia']                      # removing a value using del statement
+capital_cities.get('canada', ('key not found')       # .get(x, y) .get() method can be used on 'x' key, if doesn't exit gives 'y' message
 ```
 
 *Strings*
