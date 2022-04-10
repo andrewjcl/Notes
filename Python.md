@@ -72,6 +72,10 @@ for city in capital_cities.values():    # .values() is optional as this is the d
 for country in capital_cities.keys():
   print(f"--{country}")
   
+# Checking for existance of key without loop
+if 'canada' not in capital_cities.keys():         # capital_cities.keys() returns a list of keys from the dictionary
+    print('Canda is not in dicitonary')
+  
 ```
 
 *Strings*
