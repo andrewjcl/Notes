@@ -43,7 +43,9 @@ print('Done')
 
 *Dictionaries*  
 
+```python
 Dictionaries are Python's implementation of a data structure generally known as an asasociative array. A dictionary consists of a collection of key-value pairs. Each key-value pair maps the key to its associated value. It is similar to a list in that it is mutable, dynamic and can be nested. It differs in that elements are accessed through a key and not an index. Although access does not depend on order, due to the Python implementation the order does remain consistent, and as of Python 3.7 this is guaranteed by language specification. https://realpython.com/python-dicts/
+```
 
 ```python
 capital_cities = {'australia' : 'sydney', 'united kingdom' : 'london'}     # defining a dictionary
