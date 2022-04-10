@@ -54,7 +54,7 @@ del capital_cities['australia']                      # removing a value using de
 capital_cities.get('canada', ('key not found') # get() method can be used without causing crash if key doesn't exist
 
 # Looping with access to key and value
-for country, city in capital_cities.items():
+for country, city in capital_cities.items():   # for KEY, VALUE, in DICT.items():
   print(f"{country} -- {city}
 
 # Looping with just values
