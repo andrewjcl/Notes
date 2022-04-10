@@ -50,6 +50,7 @@ capital_cities = {'australia' : 'sydney', 'united kingdom' : 'london'}     # def
 print(f"The capital city of Australia is {capital_cities['australia']}")   # accessing the value for a key
 capital_cities['australia'] = 'sydney'               # modifying a value
 capital_cities['united states'] = 'washington d.c'   # adding a new value
+del capital_cities['australia']                      # removing a value using del statement
 ```
 
 *Strings*
