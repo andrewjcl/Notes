@@ -52,6 +52,15 @@ capital_cities['australia'] = 'sydney'               # modifying a value
 capital_cities['united states'] = 'washington d.c'   # adding a new value
 del capital_cities['australia']                      # removing a value using del statement
 capital_cities.get('canada', ('key not found') # get() method can be used without causing crash if key doesn't exist
+
+# Looping with access to key and value
+for country, city in capital_cities.items():
+  print(f"{country} -- {city}
+
+# Looping with just values
+for city in capital_cities.values():    # .values() is optional as this is the default behaviour for loop on dictionary
+  print(f"--{city}")
+  
 ```
 
 *Strings*
