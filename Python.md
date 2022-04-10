@@ -16,14 +16,10 @@ def hello(argumentOne, argumentTwo):
   print(argumentOne + " " + argumentTwo)
 ```
 
-
-
-
 *Boolean*
 ```python
 while True:   # Note capitalisation
 ```
-
 
 *Operators*
 ```python
@@ -52,6 +48,8 @@ Dictionaries are Python's implementation of a data structure generally known as 
 ```python
 capital_cities = {'australia' : 'sydney', 'united kingdom' : 'london'}     # defining a dictionary
 print(f"The capital city of Australia is {capital_cities['australia']}")   # accessing the value for a key
+capital_cities['australia'] = 'sydney'               # modifying a value
+capital_cities['united states'] = 'washington d.c'   # adding a new value
 ```
 
 *Strings*
