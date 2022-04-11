@@ -17,13 +17,12 @@ def hello(first_name, last_name):
  
 # You can use a keyword argument to explcicitly state what your arguments are when calling a function
 # this can override the default order of arguments
- 
 def book(author, title):
   print(f"{title}, written by {author}")
   
 book(title = 'Catch 22', author = 'Joseph Heller')
 
-# You can provide default values for arguments that will be used if none is specified when the function is called
+# You can provide default values for arguments that will be used if none are specified when the function is called
 def person(name, sex = 'male'):
     print(f"{name} is {sex}.")
 
