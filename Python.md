@@ -14,6 +14,14 @@ http://automatetheboringstuff.com/chapter1/
 ```python
 def hello(argumentOne, argumentTwo):
   print(argumentOne + " " + argumentTwo)
+  
+  # You can use a keyword argument to explcicitly state what your arguments are when calling a function
+  # this can override the default order of arguments
+  
+def book(author, title):
+  print(f"{title}, written by {author}")
+  
+book(title = 'Catch 22', author = 'Joseph Heller')
 ```
 
 *Boolean*
