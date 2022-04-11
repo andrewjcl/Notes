@@ -12,8 +12,8 @@ http://automatetheboringstuff.com/chapter1/
 
 *Defining a Function*
 ```python
-def hello(argumentOne, argumentTwo):
-  print(argumentOne + " " + argumentTwo)
+def hello(first_name, last_name):
+  print(first_name + " " + last_name)
   
   # You can use a keyword argument to explcicitly state what your arguments are when calling a function
   # this can override the default order of arguments
