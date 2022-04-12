@@ -28,8 +28,9 @@ def person(name, sex = 'male'):
 
 person('Andrew')
 
-# You can define a function that will work with any given amount of arguments through *args
+# You can define a function that will work with any given amount of arguments through *varibales
 # The function will receive the arguments as a tuple (ie an immutable list)
+# Often this is called *args
 def function_name (*args):
   for each in args:
     print(each)
@@ -39,6 +40,7 @@ def add_numbers(num_1, num_2, all_remaining_numbers*):
 # You can define a function that will accept a variable amount of keyword values using **
 # When the last argument is defined as **arg, the function will create a dictionary and 
 # save all keyword values into that dictionary
+# Often this variable is called **kwargs
 
 def build_profile(first, last, **user_info):
   user_info['first_name'] = first     # Adding the first argument as a value to the dictionary the function created
