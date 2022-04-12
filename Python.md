@@ -27,6 +27,14 @@ def person(name, sex = 'male'):
     print(f"{name} is {sex}.")
 
 person('Andrew')
+
+# You can define a function that will work with any given amount of arguments through *args
+# The function will receive the arguments as a tuple (ie an immutable list)
+def function_name (*args):
+  for each in args:
+    print(each)
+  
+
 ```
 
 *Boolean*
