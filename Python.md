@@ -36,7 +36,7 @@ def function_name (*args):
 # This can be mixed with other arguments, but the variable number arg must come last
 def add_numbers(num_1, num_2, all_remaining_numbers*):
   
-# You can define a function that will accept a variable amount of keyword values as well
+# You can define a function that will accept a variable amount of keyword values using **
 # When the last argument is defined as **arg, the function will create a dictionary and 
 # save all keyword values into that dictionary
 
