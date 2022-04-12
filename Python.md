@@ -232,3 +232,27 @@ def spam(divideBy):
     except ZeroDivisionError:
         print('Error: Invalid argument.')
 ```
+## Program Structure
+
+```python
+A module is a separate .py file that stores functions.
+
+# Import a module and then use the functions in it by first referencing that module
+
+import pizza_module
+pizza_module.make_pizza("cheese", 15)
+
+# Import a specific or a selection of functions from a module directly, and then call them directly
+from pizza_module import make_pizza, cook_pizza
+
+# Give a function an alias (to avoid naming conflicts or shorten name)
+from pizza_module import make_pizza as mp
+
+# Give a module an alias
+import pizza as p
+
+# Import all functions in module - can then use all functions directly but can 
+# be problematic in large modules, may create naming conflicts
+from pizza import *
+
+```
