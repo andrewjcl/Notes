@@ -45,6 +45,8 @@ def build_profile(first, last, **user_info):
   user_info['first_name'] = first     # Adding the first argument as a value to the dictionary the function created
   user_info['last_name'] = last
   return user_info
+  
+user_01 = build_profile("andrew", "lim", height=178, city="Newcastle"  # When adding keyvalues, don't use quotes on the key 
 
 ```
 
