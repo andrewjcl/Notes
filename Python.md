@@ -235,7 +235,7 @@ def spam(divideBy):
 ## Program Structure
 
 ```python
-A module is a separate .py file that stores functions.
+# A module is a separate .py file that stores functions.
 
 # Import a module and then use the functions in it by first referencing that module
 
