@@ -46,7 +46,7 @@ def build_profile(first, last, **user_info):
   user_info['last_name'] = last
   return user_info
   
-temp = build_profile("andrew", "lim", height=178, city="NCL"  # When adding keyvalues, don't use quotes on the key 
+temp = build_profile("andrew", "lim", height=178, city="NCL")  # When adding keyvalues args, don't use quotes on the key 
 
 ```
 
