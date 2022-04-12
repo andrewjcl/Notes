@@ -33,7 +33,17 @@ person('Andrew')
 def function_name (*args):
   for each in args:
     print(each)
+# This can be mixed with other arguments, but the variable number arg must come last
+def add_numbers(num_1, num_2, all_remaining_numbers*):
   
+# You can define a function that will accept a variable amount of keyword values as well
+# When the last argument is defined as **arg, the function will create a dictionary and 
+# save all keyword values into that dictionary
+
+def build_profile(first, last, **user_info):
+  user_info['first_name'] = first     # Adding the first argument as a value to the dictionary the function created
+  user_info['last_name'] = last
+  return user_info
 
 ```
 
