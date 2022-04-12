@@ -41,7 +41,6 @@ def add_numbers(num_1, num_2, all_remaining_numbers*):
 # When the last argument is defined as **arg, the function will create a dictionary and 
 # save all keyword values into that dictionary
 # Often this variable is called **kwargs
-
 def build_profile(first, last, **user_info):
   user_info['first_name'] = first     # Adding the first argument as a value to the dictionary the function created
   user_info['last_name'] = last
