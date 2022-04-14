@@ -275,7 +275,13 @@ with open(filename) as file:
 for line in lines:
     print(line)
     
-# By default, open('filename') opens the file in ```read``` mode. If you want to write to a file you can
-# use ```open('filename', 'w')``` to allow you to write to a file.
+# By default, open(filename) opens the file in `read` mode. If you want to write to a file you can
+# use `open(filename, 'w')` to allow you to write to a file.
+with open(filename) as file_object:
+  file_object.write("This is a new string.")
   
+# Note that writing to a file will destroy an old file and create a new one each time, or create a new file
+# if none exists. To add to an existing file you must use the append mode of open
+with open(filename, 'a') as file_object:
+  file_object.write("Text to be added to a file.")
 ```
