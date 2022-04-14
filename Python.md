@@ -255,3 +255,16 @@ import pizza as p
 from pizza import *
 
 ```
+
+## Files
+
+```python
+with open('pi_digits.txt') as file_object:   # with handles close()
+  contents = file_object.read()              # .read() returns string
+  
+with open('pi_digits.txt') as file_object:
+    for line in file_object:                  #
+        print(line.rstrip())
+  
+  
+```
