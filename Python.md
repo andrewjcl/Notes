@@ -259,12 +259,20 @@ from pizza import *
 ## Files
 
 ```python
-with open('pi_digits.txt') as file_object:   # with handles close()
-  contents = file_object.read()              # .read() returns string
+with open('pi_digits.txt') as file_object:   # `with` handles close() to prevent accidental corruption of file
+  contents = file_object.read()              # `.read()` returns entire contents as one string
   
+# The file object of a `with` is iterable, so it can be stepped through line by line as separate strings    
 with open('pi_digits.txt') as file_object:
-    for line in file_object:                  #
-        print(line.rstrip())
-  
+    for line in file_object:                 
+        print(line)
+        
+# The `file_object` is only accessible in the `with` block as it needs to be `open()` and `close()`'d. 
+# Use `readlines()` to save all the lines in a list that will be available outside the `with` block
+with open(filename) as file:
+    lines = file.readlines()
+
+for line in lines:
+    print(line)
   
 ```
