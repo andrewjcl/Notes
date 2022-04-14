@@ -226,11 +226,19 @@ else:
 ## Error Catching
 
 ```python
-def spam(divideBy):
+def divide(num_1, num_2):
     try:
         return 42 / divideBy
     except ZeroDivisionError:
         print('Error: Invalid argument.')
+        
+# An else block can be added to have a block that will run if no error
+try:
+    result = num_1 / num_2
+except ZeroDivisionError:
+    print("Can't  divide by zero.")
+else:
+    print(f"{num_1} / {num_2} = {result}")
 ```
 ## Program Structure
 
