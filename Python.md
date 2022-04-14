@@ -277,7 +277,7 @@ for line in lines:
     
 # By default, open(filename) opens the file in `read` mode. If you want to write to a file you can
 # use `open(filename, 'w')` to allow you to write to a file.
-with open(filename) as file_object:
+with open(filename, 'w') as file_object:
   file_object.write("This is a new string.")
   
 # Note that writing to a file will destroy an old file and create a new one each time, or create a new file
