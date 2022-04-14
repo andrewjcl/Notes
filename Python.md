@@ -228,9 +228,9 @@ else:
 ```python
 def divide(num_1, num_2):
     try:
-        return 42 / divideBy
+        return num_1 / num_2
     except ZeroDivisionError:
-        print('Error: Invalid argument.')
+        print("Can't divide by zero.")
         
 # An else block can be added to have a block that will run if no error
 try:
