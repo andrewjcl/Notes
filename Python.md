@@ -274,5 +274,8 @@ with open(filename) as file:
 
 for line in lines:
     print(line)
+    
+# By default, open('filename') opens the file in ```read``` mode. If you want to write to a file you can
+# use ```open('filename', 'w')``` to allow you to write to a file.
   
 ```
