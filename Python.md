@@ -239,6 +239,15 @@ except ZeroDivisionError:
     print("Can't  divide by zero.")
 else:
     print(f"{num_1} / {num_2} = {result}")
+    
+# You can explicitly do nothing in event of exception with pass
+try:
+    with open(filename, encoding='utf-8') as f:
+        contents = f.read() # Reads the entire contents of the file into one string
+except FileNotFoundError:
+    pass
+else:
+    words = contents.split()    # Splits that string into a list of strings (words)
 ```
 ## Program Structure
 
