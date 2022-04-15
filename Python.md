@@ -8,9 +8,7 @@
 ```
 http://automatetheboringstuff.com/chapter1/
 ```
-## Structure
-
-*Defining a Function*
+## Functions
 ```python
 def hello(first_name, last_name):
   print(first_name + " " + last_name)
@@ -51,6 +49,8 @@ temp = build_profile("andrew", "lim", height=178, city="Newcastle")
 
 ```
 
+## Flow
+
 *Boolean*
 ```python
 while True:   # Note capitalisation
@@ -74,6 +74,12 @@ if numOfGuests:                       # int numOfGuests is evalutated to be true
     print('Be sure to have enough room for all your guests.')
 print('Done')
 ```
+
+
+## Structure
+
+*Defining a Function*
+
 ## Data
 
 *Dictionaries*  
