@@ -10,7 +10,9 @@ http://automatetheboringstuff.com/chapter1/
 ```
 ## Classes
 ```python
-# 
+# A class is a blueprint of an object. 
+# An object contains methods (ie specific functions) and attributes (ie specific variables)
+# A class always starts with an __init__ method - that initialises it (ie a constructor method)
 class Person:
   def __init__(self, name, age):
     self.name = name
