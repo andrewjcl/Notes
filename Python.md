@@ -8,6 +8,20 @@
 ```
 http://automatetheboringstuff.com/chapter1/
 ```
+## Classes
+```python
+# 
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+  def say_hello(self):
+    print(f"Hello, my name is {self.name}")
+```
+
+
+
 ## Functions
 ```python
 def hello(first_name, last_name):
