@@ -21,6 +21,12 @@ andrew@desktop:~$ python3 -m venv test_env
 ```terminal
 andrew@desktop:~$ python3 -m venv test_env
 ```
+```shell
+andrew@desktop:~$ python3 -m venv test_env
+```
+```shellsession
+andrew@desktop:~$ python3 -m venv test_env
+```
 
 ## Classes
 ```python
