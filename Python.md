@@ -13,20 +13,9 @@ http://automatetheboringstuff.com/chapter1/
 
 Creates a new virtual environment called test_env
 ```console
-andrew@desktop:~$ python3 -m venv test_env
+andrew@DESKTOP:~$ python3 -m venv test_env
 ```
-```bash
-andrew@desktop:~$ python3 -m venv test_env
-```
-```terminal
-andrew@desktop:~$ python3 -m venv test_env
-```
-```shell
-andrew@desktop:~$ python3 -m venv test_env
-```
-```shellsession
-andrew@desktop:~$ python3 -m venv test_env
-```
+
 
 ## Classes
 ```python
