@@ -15,8 +15,9 @@ Notes about learning Linux and terminal etc
 `$ cd /home/andrew/Desktop` `/` -> absolute path for root        
 `$ cd ~/Desktop/stuff` `~/` -> absolute path for home   
 `$ explorer.exe .`             Opens current directory in explorer  
-`$ apt-get update`             Updates the package list for installing and upgrading packages  
-                               Do it everytime before installing a package  
+`$ apt-get update`  
+Updates the package list for installing and upgrading packages   
+Do it everytime before installing a package    
 
 
 
