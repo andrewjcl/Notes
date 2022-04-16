@@ -39,6 +39,9 @@ https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-he
   <li>thunder</li>
   <li>other cats</li>
 </ol>
+
+<!-- A form is a container element for input elements. When a submit button in the form is clicked,
+     the form data is sent to the form-handler file, specified by action attribute in opening form tag -->
 <form action="/submit-cat-photo">                                    <!-- Text Form -->
   <input type="text" placeholder="cat photo URL">
    <label><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>    <!-- Radio buttons -->
