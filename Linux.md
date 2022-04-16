@@ -13,7 +13,8 @@ Notes about learning Linux and terminal etc
 `$ mv`                        Move   
 `$ pwd`     Print Working Directory  
 `$ cd /home/andrew/Desktop` `/` -> absolute path for root        
-`$ cd ~/Desktop/stuff` `~/` -> absolute path for home  
+`$ cd ~/Desktop/stuff` `~/` -> absolute path for home 
+`$ explorer.exe .`           Opens current directory in explorer
 
 
 
