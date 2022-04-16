@@ -12,6 +12,8 @@
 
 ## [Python](Python.md)
 
+## [Glossary](Glossary.md)
+
 #### [Saved Exercises](Exercises.md)
 
 
