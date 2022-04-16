@@ -15,7 +15,7 @@ http://automatetheboringstuff.com/chapter1/
 ```console
 andrew@DESKTOP:~$ python3 -m venv test_env      # Creates a new virtual environment called test_env
 andrew@DESKTOP:~$ source test_env/bin/activate  # Activate the virtual environment
-(test_env) andrew@DESKTOP:~$ deactivate         # Deactivate the virtual environment
+(test_env)_andrew@DESKTOP:~$ deactivate         # Deactivate the virtual environment
 ```
 
 
