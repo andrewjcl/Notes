@@ -9,7 +9,7 @@ Notes about learning Linux and terminal etc
 
 `$ pkill firefox`             Kill firefox  
 `$ cd`                        Change directory  
-`$ ls`                        List contents  
+`$ ls`                        List contents - -a (all, shows hidden files) 
 `$ mv`                        Move   
 `$ pwd`     Print Working Directory  
 `$ cd /home/andrew/Desktop` `/` -> absolute path for root        
