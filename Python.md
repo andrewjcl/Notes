@@ -12,7 +12,7 @@ http://automatetheboringstuff.com/chapter1/
 ## Django
 
 Creates a new virtual environment called test_env
-```bash
+```console
 user$ python3 -m venv test_env
 ```
 
