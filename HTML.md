@@ -10,11 +10,20 @@ https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-he
 ```
 ## Basic Tags
 
-*Defining a Function*
 
 ```html
 <!-- This is a comment -->
-
+<!DOCTYPE html>
+<html>
+  <head>  <!-- Head displays meta data information, title bar, meta, style etc. -->
+    <title> Title is what shows in the window tab </title>
+  </head>
+  <body> <!-- Body is for all content to be rendered on the page -->
+    <h1>Heading</h1>
+    <p>This is my first paragraph of text</p>
+    
+  </body>
+</html>
 <h1>This is a heading</h1>                                           <!-- Can use numbers 1 through to 6  each
                                                                           in progressively smaller fonts-->
 
@@ -42,9 +51,10 @@ https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-he
 
 <!-- A form is a container element for input elements. When a submit button in the form is clicked,
      the form data is sent to the form-handler file, specified by action attribute in opening form tag -->
-<form action="/submit-cat-photo">                                    <!-- Text Form -->
+<form action="/submit-cat-photo">                               
   <input type="text" placeholder="cat photo URL">
-   <label><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>    <!-- Radio buttons -->
-   <label><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>  <!-- same name="" creates a group -->
+  <!-- Radio Buttons - grouped with name attribute so only 1 can be active at a time --> 
+  <label><input id="indoor" value = "indoor" type="radio" name="indoor-outdoor"> Indoor</label>   
+  <label><input id="outdoor" value = "outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>  
 </form>
 ```
