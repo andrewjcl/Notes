@@ -15,6 +15,12 @@ Creates a new virtual environment called test_env
 ```console
 andrew@desktop:~$ python3 -m venv test_env
 ```
+```bash
+andrew@desktop:~$ python3 -m venv test_env
+```
+```terminal
+andrew@desktop:~$ python3 -m venv test_env
+```
 
 ## Classes
 ```python
