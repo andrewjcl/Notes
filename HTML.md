@@ -12,7 +12,7 @@ https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-he
 CSS stands for Cascading Style Sheets. It is a style sheet language used for describing the presentation of a document
 written in a markup language such as HTML. CSS is designed to enable the separation of presentation and content, including
 layout, colours and fonts. Many webpages can share the same CSS file, improving consistency and easing workload. It also
-means a broswer can cache the CSS file on one page and then retreive that cache for all the pages on the site.
+means a browser can cache the CSS file on one page and then retreive that cache for all the pages on the site.
 
 CSS can be applied to a document in three ways.
 
@@ -27,7 +27,7 @@ Generally external linking is preferred, however while learning it is common to 
 <!-- This is a comment -->
 <!DOCTYPE html>
 <html>
-  <head>  <!-- Head displays meta data information, title bar, meta, style etc. -->
+  <head>  <!-- Head displays meta data information, title bar, meta, style, links (CSS/JS) etc. -->
     <title> Title is what shows in the window tab </title>
   </head>
   <body> <!-- Body is for all content to be rendered on the page -->
