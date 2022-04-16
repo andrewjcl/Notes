@@ -41,5 +41,7 @@ https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-he
 </ol>
 <form action="/submit-cat-photo">                                    <!-- Text Form -->
   <input type="text" placeholder="cat photo URL">
+   <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>  <!-- Radio buttons -->
+   <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
 </form>
 ```
