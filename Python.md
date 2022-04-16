@@ -13,7 +13,7 @@ http://automatetheboringstuff.com/chapter1/
 
 Creates a new virtual environment called test_env
 ```console
-python3 -m venv test_env
+$ python3 -m venv test_env
 ```
 
 ## Classes
