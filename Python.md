@@ -8,6 +8,14 @@
 ```
 http://automatetheboringstuff.com/chapter1/
 ```
+
+## Django
+
+Creates a new virtual environment called test_env
+```terminal
+user$ python3 -m venv test_env
+```
+
 ## Classes
 ```python
 # A class is a blueprint of an object. 
