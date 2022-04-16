@@ -11,9 +11,10 @@ http://automatetheboringstuff.com/chapter1/
 
 ## Django
 
-Creates a new virtual environment called test_env
+
 ```console
-andrew@DESKTOP:~$ python3 -m venv test_env
+andrew@DESKTOP:~$ python3 -m venv test_env    # Creates a new virtual environment called test_env
+andrew@DESKTOP:~$ python3 -m venv test_env    // Creates a new virtual environment called test_env
 ```
 
 
