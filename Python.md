@@ -23,11 +23,12 @@ andrew@DESKTOP:~$ django-admin startproject learning_log .
 # Creates a folder learning_log with python source files,
 # and also a manage.py file in the top level which can be run with commands
 
-andrew@DESKTOP:~$ python manage.py <!--migrate-->  
+andrew@DESKTOP:~$ python manage.py migrate   
 # This manage.py migrate command tells django to make sure the database matches the current state of the project
 # If no database exists (as in first run), it will create the database - a single file db.sqlite3
 
-andrew@DESKTOP:~$ python manage.py <!--runserver-->
+andrew@DESKTOP:~$ python manage.py runserver
+# Starts the Django development server. Runs as long as the terminal process does, ctrl C to stop
 
 
 ```
