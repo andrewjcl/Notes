@@ -14,9 +14,9 @@ Notes about learning Linux and terminal etc
 `$ pwd`     Print Working Directory  
 `$ cd /home/andrew/Desktop` `/` -> absolute path for root        
 `$ cd ~/Desktop/stuff` `~/` -> absolute path for home   
-`$ explorer.exe .`             Opens current directory in explorer  
-`$ echo "=== this is a new line" > .new_file.txt` Writes output to file, creates if none
-`$ echo "=== second line " >> .new_file.txt` Appends output to file
+`$ explorer.exe .`             Opens current directory in explorer    
+`$ echo "=== this is a new line" > .new_file.txt` Writes output to file, creates if none  
+`$ echo "=== second line " >> .new_file.txt` Appends output to file  
 
 
 
