@@ -16,7 +16,19 @@ http://automatetheboringstuff.com/chapter1/
 andrew@DESKTOP:~$ python3 -m venv test_env      # Creates a new virtual environment called test_env
 andrew@DESKTOP:~$ source test_env/bin/activate  # Activate the virtual environment
 andrew@DESKTOP:~$ deactivate                    # (test_env) Deactivate the virtual environment
-andrew@DESKTOP:~$ pip install django            # (test_env) Install django in virtual environment
+andrew@DESKTOP:~$ pip install django            # (test_env) Install django
+
+andrew@DESKTOP:~$ django-admin startproject learning_log .
+# Creates a new Django project in current directory
+# Creates a folder learning_log with python source files,
+# and also a manage.py file in the top level which can be run with commands
+
+andrew@DESKTOP:~$ python manage.py migrate  
+# This manage.py migrate command tells django to make sure the database matches the current state of the project
+# If no database exists (as in first run), it will create the database - a single file db.sqlite3
+
+
+
 ```
 
 
