@@ -18,8 +18,8 @@ andrew@DESKTOP:~$ source test_env/bin/activate  # Activate the virtual environme
 andrew@DESKTOP:~$ deactivate                    # (test_env) Deactivate the virtual environment
 andrew@DESKTOP:~$ pip install django            # (test_env) Install django
 
-andrew@DESKTOP:~$ django-admin startproject learning_log .
-# Creates a new Django project in current directory
+andrew@DESKTOP:~$ django-admin startproject learning_log .  
+<!-- Creates a new Django project in current directory -->  
 # Creates a folder learning_log with python source files,
 # and also a manage.py file in the top level which can be run with commands
 
