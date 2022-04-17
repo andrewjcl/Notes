@@ -5,6 +5,11 @@ APT is a command-line utility for installing, updating, removing and managing de
 `$ sudo apt upgrade` Updates the installed packages to their latest versions  
 `$ sudo apt install package_name` Install a package  
 
+### Favicon ###
+
+Favicon stands for favourite icon, is a file that contains one or more small icons. These icon files are uploaded for webpages for the browser to use
+as a small graphic associated with that webpage.
+
 ### PIP - Package Installer for Python ###
 
 pip is the package installer for Python. It comes by default with python3.  
