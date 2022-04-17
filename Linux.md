@@ -15,9 +15,9 @@ Notes about learning Linux and terminal etc
 `$ cd /home/andrew/Desktop` `/` -> absolute path for root        
 `$ cd ~/Desktop/stuff` `~/` -> absolute path for home   
 `$ explorer.exe .`             Opens current directory in explorer  
-`$ apt-get update`  
-Updates the package list for installing and upgrading packages   
-Do it everytime before installing a package    
+`$ echo "=== this is a new line" > .new_file.txt` Writes output to file, creates if none
+`$ echo "=== second line " >> .new_file.txt` Appends output to file
+
 
 
 
