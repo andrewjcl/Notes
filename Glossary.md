@@ -10,7 +10,15 @@ APT is a command-line utility for installing, updating, removing and managing de
 pip is the package installer for Python. It comes by default with python3.  
 `$ python -m pip --version` -m is a flag for the python command to run that module  
 `$ python -m pip install sampleproject` installs a project from the Python Package Index  
-`$ python -m pip install get+https://github.com/pypa/sampleproject.git@main` pip can install a package directly from github  
+`$ python -m pip install get+https://github.com/pypa/sampleproject.git@main` pip can install a package directly from github 
+
+### SQL - Structured Query Language ###
+
+A standardised programming language that is used to manage relational databases.
+
+### SQLite 3
+
+A C language library that implements a small, fast, self contained SQL database engine. The source code is in the public domain is free to use for any purpose.
 
 ### WSL - Windows Subsystem for Linux ###
 
