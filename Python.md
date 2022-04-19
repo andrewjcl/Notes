@@ -350,3 +350,16 @@ with open(filename, 'w') as file_object:
 with open(filename, 'a') as file_object:
   file_object.write("Text to be added to a file.")
 ```
+
+JSON can be used to store serialised data instead of just strings. This allows you to store a dictionary or list directly.
+Writing to a json file is called 'dumping'. Reading is called 'loading'.
+```python
+import json
+number = [1, 2, 3, 4]
+filename = 'numbers.json'
+with open(filename, 'w') as f:
+  json.dump(numbers, f)
+  
+with open(filename) as f:
+  numbers = json.load(f)
+```
