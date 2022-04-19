@@ -2,7 +2,7 @@
 
 ## [C#](CSharp.md)
 
-## [HTML](HTML.md)
+## [HTML/CSS](HTML.md)
 
 ## [Java](Java.md)
 
