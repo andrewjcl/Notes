@@ -26,10 +26,9 @@ Generally external linking is preferred, however while learning it is common to 
 ```html
 <h2 style="color: red;">This is my Heading</h2>   <!-- Changing the colour of text via inline style -->  
 
-<!--
-  example of style block (usually placed in the head at the start of a html document)
-  that applies a color to all h2 elements in the document
-  -->
+
+  <!-- A style block (usually placed in the head at the start of a html document)
+  that applies a color to all h2 elements in the document -->
   
 <style>
   h2 {
