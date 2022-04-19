@@ -27,12 +27,17 @@ Generally external linking is preferred, however while learning it is common to 
 <h2 style="color: red;">This is my Heading</h2>   <!-- Changing the colour of text via inline style -->  
 
 
-  <!-- A style block (usually placed in the head at the start of a html document)
-  that applies a color to all h2 elements in the document -->
+  <!-- A style block placed in the head of a html document applies styles to the entire document -->
   
 <style>
+  <!-- Styling an element type directly -->
   h2 {
     color: blue;
+  }
+  
+  <!-- Creating a CSS class allows us to style any element given the class attribute -->
+  .red-text {
+    color: red;
   }
 </style>
 ```
