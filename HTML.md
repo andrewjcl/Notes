@@ -8,6 +8,7 @@
 ```
 https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/say-hello-to-html-elements/
 ```
+## CSS ##
 
 CSS stands for Cascading Style Sheets. It is a style sheet language used for describing the presentation of a document
 written in a markup language such as HTML. CSS is designed to enable the separation of presentation and content, including
@@ -22,6 +23,22 @@ CSS can be applied to a document in three ways.
 
 Generally external linking is preferred, however while learning it is common to use the first two styles for ease of demonstration.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## HTML ##
 
 ```html
 <!-- This is a comment -->
