@@ -20,7 +20,7 @@ CSS can be applied to a document in three ways.
 * Internal - by using a `<style>` element in the `<head>` section of a HTML page
 * External - by using a `<link>` element to link an external CSS file
 
-Generally external linking is preferred, however while learning it is common to use the first two styles to impropve workflow.
+Generally external linking is preferred, however while learning it is common to use the first two styles for ease of demonstration.
 
 
 ```html
