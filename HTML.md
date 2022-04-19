@@ -24,7 +24,7 @@ CSS can be applied to a document in three ways.
 Generally external linking is preferred, however while learning it is common to use the first two styles for ease of demonstration.
 
 ```html
-<h2 style="color: red;">This is my Heading</h2>   <!-- Applying an inline style of color -->
+<h2 style="color: red;">This is my Heading</h2>   <!-- Changing the colour of text via inline style -->
 ```
 
 
