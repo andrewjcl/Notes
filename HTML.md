@@ -30,13 +30,12 @@ Generally external linking is preferred, however while learning it is common to 
   <!-- A style block placed in the head of a html document applies styles to the entire document -->
   
 <style>
-  <!-- Styling an element type directly -->
-  h2 {
+  
+  h2 { <!-- Styling an element type directly -->
     color: blue;
   }
   
-  <!-- Creating a CSS class allows us to style any element given the class attribute -->
-  .red-text {
+  .red-text { <!-- Creating a CSS class allows us to style any element given the class attribute -->
     color: red;
   }
 </style>
