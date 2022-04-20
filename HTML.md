@@ -35,7 +35,8 @@ Generally external linking is preferred, however while learning it is common to 
     color: blue;
   }
   
-  .red-text { <!-- Creating a CSS class allows us to style any element given the class attribute -->
+  /* Creating a CSS class allows us to style any element given the class attribute */
+  .red-text {
     color: red;
   }
 </style>
