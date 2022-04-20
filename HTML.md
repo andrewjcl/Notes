@@ -30,8 +30,8 @@ Generally external linking is preferred, however while learning it is common to 
   <!-- A style block placed in the head of a html document applies styles to the entire document -->
   
 <style>
-  
-  h2 { <!-- Styling an element type directly -->
+  /* Styling an element type directly */
+  h2 { 
     color: blue;
   }
   
