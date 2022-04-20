@@ -26,9 +26,7 @@ Generally external linking is preferred, however while learning it is common to 
 ```html
 <h2 style="color: red;">This is my Heading</h2>   <!-- Changing the colour of text via inline style -->  
 
-
-  <!-- A style block placed in the head of a html document applies styles to the entire document -->
-  
+<!-- A style block placed in the head of a html document applies styles to the entire document -->
 <style>
   /* Styling an element type directly */
   h2 { 
@@ -49,19 +47,6 @@ Generally external linking is preferred, however while learning it is common to 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## HTML ##
 
 ```html
@@ -69,6 +54,8 @@ Generally external linking is preferred, however while learning it is common to 
 <!DOCTYPE html>
 <html>
   <head>  <!-- Head displays meta data information, title bar, meta, style, links (CSS/JS) etc. -->
+    <!-- Link that imports a google web font -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <title> Title is what shows in the window tab </title>
   </head>
   <body> <!-- Body is for all content to be rendered on the page -->
