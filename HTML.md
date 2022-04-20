@@ -63,7 +63,13 @@ padding: 20px 40px 20px 40px;
 
 ### Lengths ###  
 Length and size in CSS can be either relative or absolute  
-```10px``` pixels   
+```css
+padding: 10px;
+padding: 10pt;
+padding: 2.0em;
+padding: 1.5rem;
+padding: 20vw;
+```
 
 
 ## HTML ##
