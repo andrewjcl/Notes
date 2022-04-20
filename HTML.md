@@ -51,11 +51,16 @@ Generally external linking is preferred, however while learning it is common to 
   }
 </style>
 ```
+#### Spacing ####  
 Three properties control the amount of space that surrounds each HTML element
 
 ```padding``` controls the amount of space between the element's content and its border  
-```padding: 20px 40px 20px 40px;``` 1 line element padding - TOP, RIGHT, BOTTOM, LEFT  
+```html padding: 20px 40px 20px 40px;``` 1 line element padding - TOP, RIGHT, BOTTOM, LEFT  
 ```margin``` controls the amount of space between an element's border and its surrounding elements
+
+#### Lengths ####  
+Length and size in CSS can be either relative or absolute  
+```10px``` pixels   
 
 
 ## HTML ##
