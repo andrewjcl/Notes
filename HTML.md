@@ -55,7 +55,7 @@ Generally external linking is preferred, however while learning it is common to 
 Three properties control the amount of space that surrounds each HTML element
 
 ```padding``` controls the amount of space between the element's content and its border  
-```html
+```css
 padding: 20px 40px 20px 40px;
 ```
 1 line element padding - TOP, RIGHT, BOTTOM, LEFT  
