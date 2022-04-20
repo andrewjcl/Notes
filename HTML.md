@@ -35,7 +35,7 @@ Generally external linking is preferred, however while learning it is common to 
   
   p {
     font-size: 16px;
-    font-family: monospace;
+    font-family: "Lobster", monospace;  /* Attempting to use google Lobster font, degrade to monospace if unable */
   }
   
   /* Creating a CSS class allows us to style any element given the class attribute */
