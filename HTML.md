@@ -28,7 +28,14 @@ Generally external linking is preferred, however while learning it is common to 
 
 <!-- A style block placed in the head of a html document applies styles to the entire document -->
 <style>
-  /* Styling an element type directly */
+
+  /* A border must have a "border-style* to work */
+  .green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+  }
+  
   h2 { 
     color: blue;
   }
