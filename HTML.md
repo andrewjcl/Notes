@@ -33,7 +33,11 @@ Generally external linking is preferred, however while learning it is common to 
   /* Styling an element type directly */
   h2 { 
     color: blue;
+  }
+  
+  p {
     font-size: 16px;
+    font-family: monospace;
   }
   
   /* Creating a CSS class allows us to style any element given the class attribute */
