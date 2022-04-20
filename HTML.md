@@ -55,7 +55,7 @@ Three properties control the amount of space that surrounds each HTML element
 
 ```padding``` controls the amount of space between the element's content and its border  
 ```padding: 20px 40px 20px 40px;``` 1 line element padding - TOP, RIGHT, BOTTOM, LEFT  
-```margin``` controls the amounf of space between an element's border and its surrounding elements
+```margin``` controls the amount of space between an element's border and its surrounding elements
 
 
 ## HTML ##
