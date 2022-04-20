@@ -64,11 +64,11 @@ padding: 20px 40px 20px 40px;
 ### Lengths ###  
 Length and size in CSS can be either relative or absolute  
 ```css
-padding: 10px;  /* Pixels - 2:1 on high res displays */
-padding: 10pt;
-padding: 2.0em; /* 1.0 is 100% of on element's font size */
-padding: 1.5rem; /* root element - ie doesn't inherit */
-padding: 20vw;  /* percentage of view port width */
+padding: 10px;    /* Pixels - 2:1 on high res displays */
+padding: 10pt;    /* Points ? */
+padding: 2.0em;   /* 1.0 is 100% of on element's font size */
+padding: 1.5rem;  /* root element - ie doesn't inherit */
+padding: 20vw;    /* percentage of view port width */
 ```
 
 
