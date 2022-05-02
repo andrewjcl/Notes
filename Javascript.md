@@ -6,6 +6,15 @@
 [Flow](#flow)
 
 
+Math
+```javascript
+Math.Random();  // Returns a random floating point number between 0 (inclusive) and 1.0 (exclusive)
+Math.floor(Math.random() * 10) + 1;  // Returns a random integer between 1 and 10 (inclusive).
+
+```
+
+
+
 
 Confirmation box with OK / Cancel buttons
 
