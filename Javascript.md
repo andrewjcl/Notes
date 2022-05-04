@@ -10,6 +10,7 @@ Math
 ```javascript
 Math.Random();  // Returns a random floating point number between 0 (inclusive) and 1.0 (exclusive)
 Math.floor(Math.random() * 10) + 1;  // Returns a random integer between 1 and 10 (inclusive).
+mrResult.toFxed(1);     // Returns a STRING of float rounded to given decimal places.
 
 ```
 
