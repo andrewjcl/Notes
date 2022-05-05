@@ -173,7 +173,7 @@ paragraphs.forEach(function (p) {
     }
 })
 ```
-append new elemend
+append new element
 ```javascript
 const newParagraph = document.createElement('p')
 newParagraph.textContent = 'This is a new element from Javascript'
