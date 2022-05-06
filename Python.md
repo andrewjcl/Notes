@@ -68,7 +68,7 @@ def person(name, sex = 'male'):
 
 person('Andrew')
 
-# You can define a function that will work with any given amount of arguments through *varibales
+# You can define a function that will work with any given amount of arguments through *variables
 # The function will receive the arguments as a tuple (ie an immutable list)
 # Often this is called *args
 def function_name (*args):
