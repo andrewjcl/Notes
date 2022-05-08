@@ -12,6 +12,8 @@
 
 ## [Python](Python.md)
 
+## [Python CC 2nd Ed](Python-cc-2ed.md)
+
 ## [Glossary](Glossary.md)
 
 #### [Saved Exercises](Exercises.md)
