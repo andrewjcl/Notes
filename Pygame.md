@@ -35,4 +35,15 @@ if player_rect.collidepoint(mouse_pos):     # Collision of rectangle and point (
     print(pygame.mouse.get_pos())
 
 
+
+""" Drawing things """
+
+# Gold line from point to cursor
+pygame.draw.line(screen, 'Gold', (400, 150), pygame.mouse.get_pos(), 2)
+
+# Brown circle
+pygame.draw.ellipse(screen, 'Brown', pygame.Rect(50, 200, 100, 100))
+
+
+
 ```
