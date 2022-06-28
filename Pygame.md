@@ -7,9 +7,19 @@
 # Initialise main window (surface)
 screen = pygame.display.set_mode((800, 400)) 
 
+# Creating a fullscreen display
+self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+self.screen_width = self.screen.get_rect().width
+self.screen_height = self.screen.get_rect().height
+
 # Create a filled surface
 test_surf = pygame.Surface((100, 200))
 test_surf.fill('WHITE')
+
+# Creat a rect and draw it
+new_rect = pygame.Rect(0, 0, rect_width, rect_height)
+pygame.draw.rect(screen, 'Red', new_rect)
+
 
 # Load from directory and save to surface. Convert changes to fastest format for blitting
 sky_surface = pygame.image.load('graphics/Sky.png').convert_alpha()     
@@ -32,10 +42,9 @@ pygame.draw.line(screen, 'Gold', (400, 150), pygame.mouse.get_pos(), 2)
 
 # Brown circle
 
+pygame.draw.ellipse(screen, 'Brown', pygame.Rect(50, 200, 100, 100))
 
-""" 
-Limitting the render/game loop
-"""
+""" Limitting the render/game loop """
 
 clock = pygame.time.Clock()     # Initialise clock
 clock.tick(60)                  # Sets fps
@@ -60,7 +69,7 @@ if player_rect.collidepoint(mouse_pos):     # Collision of rectangle and point (
 
 
 
-pygame.draw.ellipse(screen, 'Brown', pygame.Rect(50, 200, 100, 100))
+
 
 
 
