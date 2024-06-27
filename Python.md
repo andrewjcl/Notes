@@ -55,7 +55,7 @@ class Person:
 def hello(first_name, last_name):
   print(first_name + " " + last_name)
  
-# You can use a keyword argument to explcicitly state what your arguments are when calling a function
+# You can use a keyword argument to explicitly state what your arguments are when calling a function
 # this can override the default order of arguments
 def book(author, title):
   print(f"{title}, written by {author}")
